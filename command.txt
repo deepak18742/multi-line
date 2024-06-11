@@ -1,0 +1,23 @@
+rm -r '-r for directory'-
+
+useradd -m "username"
+sudo passwd "username"
+
+head devops.txt -n 3(find first 3)
+tail devops.txt -n 3(find last 3)
+
+groupadd ->makes a group
+
+cat /etc/group-> check a group
+sudo usermod -a(appendORadd)G devops(group) ashu(user) ::(adding user in group)
+sudo gpasswd -M(overwrite) deep,mohan(users) tester(group):: adding multiple user in group
+ 
+pkill -kill -u "username"::toca logout from the user
+
+sudo systemctl enable nginx(auto start nginx when machine start)
+
+
+grep -r(recursive) -i(casesensitive) | (pipe for and and forword)
+
+awk 'finder {print $1}' index.html
+awk 'NR>=1 && NR<=10 && trace' index.html
